@@ -122,11 +122,11 @@ body::selection {
   margin: 0;
 }
 
-/* #content-body {
+#content-body {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-} */
+  align-items: center;}
+ 
 
 .navbar-title {
   display: flex;
