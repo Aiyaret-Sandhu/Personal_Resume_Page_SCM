@@ -599,11 +599,24 @@ body::selection {
 }
 
 .all-projects a {
-  color: #64f4ac;
+  color: rgba(0,0,0,0.8);
+  text-decoration: none;
 }
 
 .all-projects a h3 {
   font-size: 26px;
+  background-color: #00b840;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+  margin-right: 7rem;
+  margin-bottom: 3rem;
+  transition: all ease-in-out 0.5s;
+}
+
+.all-projects a h3:hover {
+  color: #00b840;
+  background-color: #25262a;
+  border: 0.1rem solid #00b840;
 }
 
 .all-projects p {
@@ -874,13 +887,14 @@ body::selection {
   display: flex;
   flex-direction: column;
   align-items: start;
+  
 }
 
 .footer-menu li {
   list-style: none;
   padding: 0 20px;
   position: relative;
-  margin: 5px 0;
+  margin: 0.4rem 0;
 }
 
 .footer-menu .active {
@@ -891,7 +905,7 @@ body::selection {
 .footer-menu li a {
   color: #fefefe;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 600;
   transition: 0.3s ease;
 }
@@ -903,6 +917,8 @@ body::selection {
 
 .social-icons a {
   text-decoration: none;
+  font-size: 2rem;
+  margin-right: 1rem;
 }
 
 .social-icons a i {
@@ -942,16 +958,16 @@ body::selection {
   background-color: #049f3a;
   border: none;
   color: white;
-  margin-left: 2rem;
+  margin-right: 2rem;
   padding: 0.7rem 2rem;
   border-radius: 0.25rem;
   font-size: 1rem;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 .button-green:hover {
   box-shadow: 0px 0px 20px rgba(130,0,130,0.4);
-  padding: 0.7rem 3rem;
+  /* padding: 0.7rem 3rem; */
   background-color: purple;
 }
